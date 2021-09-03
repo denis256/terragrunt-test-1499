@@ -37,8 +37,9 @@ terraform.rc
 *.terraform
 **/*.tfstate
 
-*.hcl
-**/*.hcl
+*.lock.hcl
+**/*.lock.hcl
 
 *.tfvars.json
 **/*.tfvars.json
+
