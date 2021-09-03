@@ -36,3 +36,9 @@ terraform.rc
 
 *.terraform
 **/*.tfstate
+
+*.hcl
+**/*.hcl
+
+*.tfvars.json
+**/*.tfvars.json

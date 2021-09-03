@@ -1,11 +1,11 @@
 
-resource "local_file" "f2" {
-  content     = "f2"
-  filename = "${path.module}/f2.txt"
+resource "local_file" "main_file" {
+  content     = "main_file"
+  filename = "${path.module}/main_file.txt"
 }
 
 
-output "f2" {
-  value = local_file.f2.filename
+output "main_file" {
+  value = local_file.main_file.filename
 }
 
