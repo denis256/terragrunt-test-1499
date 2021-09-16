@@ -5,7 +5,9 @@ resource "local_file" "main_file" {
 }
 
 
+/*
 output "main_file" {
   value = local_file.main_file.filename
 }
 
+*/
