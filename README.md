@@ -13,7 +13,7 @@ ERRO[0010] Unable to determine underlying exit code, so Terragrunt will exit wit
 
 ```
 
-What will work:
+Same result for:
 
 ```
 terragrunt run-all init
