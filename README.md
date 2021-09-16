@@ -16,15 +16,8 @@ ERRO[0010] Unable to determine underlying exit code, so Terragrunt will exit wit
 What will work:
 
 ```
-cd app
-terragrunt init 
-terragrunt apply
-
-cd ..
-terragrunt init 
-terragrunt apply
-
-Apply complete! Resources: 1 added, 0 changed, 0 destroyed.
+terragrunt run-all init
+terragrunt run-all apply
 
 ```
 
