@@ -1,14 +1,11 @@
 
-resource "local_file" "config_file" {
-  content     = "config_file"
-  filename = "${path.module}/config_file.txt"
+resource "local_file" "main_file" {
+  content     = "main_file"
+  filename = "${path.module}/main_file.txt"
 }
 
 
-output "config_file_name" {
-  value = local_file.config_file.filename
+output "main_file" {
+  value = local_file.main_file.filename
 }
 
-output "multiline_content" {
-  value = "111 \n 222 \n 333 "
-}

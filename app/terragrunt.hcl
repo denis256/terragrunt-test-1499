@@ -1,10 +1,10 @@
-locals {
 
-    //potato = run_cmd("echo", "test1")
+
+dependency "module1" {
+    config_path = "../module1"
 }
 
 
 inputs = {
- x1 = "qwe"
-}
 
+}
